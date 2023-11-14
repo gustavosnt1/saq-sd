@@ -1,0 +1,13 @@
+<mat-toolbar>
+    <div class="navbar-logo">
+      <h2 class="logo">SYSLGPD</h2>
+    </div>
+    <div class="navbar-buttons">
+      <button mat-button routerLink="/">Home</button>
+      <button mat-button routerLink="/planos">Planos</button>
+      <button mat-button routerLink="/sobre">Sobre Nós</button>
+      <button mat-button routerLink="/contato">Contato</button>
+      <button mat-button [routerLink]="['faq']">FAQ</button>
+      <button mat-button routerLink="/login" class="login-button">Login</button>
+    </div>
+</mat-toolbar>

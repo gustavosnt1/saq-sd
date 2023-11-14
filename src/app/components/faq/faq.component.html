@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #fff;
+        }
+
+        h2 {
+            color: #333;
+            margin: 20px 0 10px;
+        }
+
+        .search-bar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .search-input {
+            padding: 8px 30px 8px 8px;
+            width: 300px;
+            border: 1px solid rgba(49, 152, 80, 1);
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .search-icon {
+            position: absolute;
+            margin-top: 8px;
+            margin-left: 270px;
+            color: rgba(49, 152, 80, 1);
+            cursor: pointer;
+        }
+
+        .columns {
+            display: flex;
+            gap: 20px; /* Adiciona espaçamento vertical entre os quadrados */
+            margin-bottom: 40px; /* Adiciona margem inferior para separar do footer */
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .square {
+            background-color: rgba(49, 152, 80, 1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            width: 300px;
+            height: 150px;
+            padding: 10px;
+            text-align: center;
+        }
+
+
+        .icon {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        /* Adiciona estilo ao link para remover o sublinhado padrão */
+        .square a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Como podemos  ajudar?</h2>
+
+<div class="search-bar">
+    <input type="text" id="search" class="search-input" placeholder="Procure sua dúvida">
+    <span class="material-icons search-icon">search</span>
+</div>
+
+<h2>Perguntas Frequentes</h2>
+
+<div class="columns">
+    <div class="column">
+        <div class="square">
+            <a href="#topic1">
+                <i class="material-icons icon">school</i>
+                <p>Como faço para criar uma conta?</p>
+            </a>
+        </div>
+        
+        <div class="square">
+            <a href="#topic2">
+                <i class="material-icons icon">help</i>
+                <p>Como alterar minha senha?</p>
+            </a>
+        </div>
+
+        <div class="square">
+            <a href="#topic3">
+                <i class="material-icons icon">build</i>
+                <p>Quais são os requisitos do sistema?</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="square">
+            <a href="#topic4">
+                <i class="material-icons icon">healing</i>
+                <p>Como entrar em contato com o suporte?</p>
+            </a>
+        </div>
+
+        <div class="square">
+            <a href="#topic5">
+                <i class="material-icons icon">attach_money</i>
+                <p>Posso cancelar minha assinatura a qualquer momento?</p>
+            </a>
+        </div>
+
+        <div class="square">
+            <a href="#topic6">
+                <i class="material-icons icon">directions_run</i>
+                <p>Como posso recuperar minha senha?</p>
+            </a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

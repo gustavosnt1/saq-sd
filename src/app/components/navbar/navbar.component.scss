@@ -1,0 +1,28 @@
+.mat-toolbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0 5%;
+
+    .navbar-logo {
+        img {
+        height: 48px; /* Ajuste a altura conforme necessário */
+        }
+    }
+    
+    .navbar-buttons {
+        display: flex;
+        gap: 16px; /* Espaçamento entre botões */
+        color: black;
+
+        .login-button{
+            margin-left: 20px;
+            font-weight: bold;
+            color: #319850;
+        }
+    } 
+
+    .navbar-logo{
+        color: black;
+    }
+}

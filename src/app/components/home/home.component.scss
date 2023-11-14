@@ -1,0 +1,117 @@
+.banner {
+    display: flex;
+    background-color: #ffffff;
+  
+    .banner-left {
+      flex: 1;
+      padding-left: 5%; /* Adicione preenchimento conforme necessário */
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-left: 40px;
+
+      .banner-title{
+        font-size: 80px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        line-height: normal;
+      }
+    }
+  
+    .banner-subtittle{
+        font-size: 20px;
+        width: 75%;
+        margin-bottom: 25px;
+        line-height: normal;
+    }
+
+    .banner-right {
+      flex: 1;
+      padding: 20px; /* Adicione preenchimento conforme necessário */
+      background-image: "";
+    }
+  
+    img {
+      max-width: 90%;
+      height: auto;
+    }
+
+    .button-mat{
+        background-color: #983131; /* Cor de fundo branca */
+        width: 30%;
+        color: #ffffff; /* Cor do texto #983131 */
+        border: 2px solid #983131; /* Borda sólida com a mesma cor do texto */
+        border-radius: 10px; /* Raio da borda para criar cantos arredondados */
+        padding: 20px 20px; /* Espaçamento interno do botão */
+        font-weight: bold; /* Texto em negrito (opcional) */
+        cursor: pointer; /* Altera o cursor para indicar que é um link (opcional) */
+      }
+      
+      /* Estilo ao passar o mouse sobre o botão (opcional) */
+      .button-mat:hover {
+        background-color: #ffffff; /* Cor de fundo #983131 */
+        color: #983131; /* Cor do texto branca */
+      }
+}
+
+.banner-services {
+  display: flex;
+  background-color: #F5FFF2;
+  justify-content: space-between;
+  padding: 100px 0 100px 0;
+
+  .banner-left {
+    flex: 1;
+    padding-left: 5%; /* Adicione preenchimento conforme necessário */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+
+    .banner-subtitle{
+      font-size: 15px;
+      color: rgba(139, 140, 140, 0.9);
+    }
+  }
+
+  .banner-right {
+    flex: 1;
+    padding: 20px; /* Adicione preenchimento conforme necessário */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-right: 40px;
+    
+    mat-card {
+      flex-basis: calc(50% - 10px); // Isso divide em duas colunas com algum espaço entre elas (10px de margem)
+      margin-bottom: 10px; // Espaço entre as linhas (10px de margem)
+      box-sizing: border-box; // Garante que a margem não afete o tamanho total do elemento
+      max-width: 200px;
+      height: 220px;
+      margin-bottom: 30px;
+
+      mat-card-header{
+        font-size: 15px;
+
+        mat-card-title{
+          font-size: 20px;
+        }
+
+
+      }
+
+      mat-card-content{
+        font-size: 15px;
+      }
+    }
+  }
+
+  .banner-title{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: normal;
+  }
+  
+}

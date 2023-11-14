@@ -1,0 +1,43 @@
+footer{
+    background-color: #319850;
+    color:white;
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        .footer-logo {
+            width: 50vw;
+            max-height: 50%;
+        }
+    
+        .footer-columns {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: left;
+            margin: 10px;
+
+
+        }
+    
+        .column ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        a{
+            text-decoration: none;
+            color: #EEEFF4;
+        }
+    }
+}
+
